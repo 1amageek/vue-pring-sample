@@ -5,6 +5,20 @@
 npm install
 ```
 
+## Set Config.ts
+```TypeScript
+export const config = {
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: ''
+};
+```
+
+[Firebase console](https://console.firebase.google.com/)
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
