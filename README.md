@@ -78,6 +78,18 @@ npm add firebase
 npm add pring 
 ```
 
+## Set Config.ts
+```TypeScript
+export const config = {
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: ''
+};
+```
+
 ## pring init
 ```TypeScript
 import Vue from 'vue';
